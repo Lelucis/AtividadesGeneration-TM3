@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PrimeiroProjeto</string>
+    <string name="imagemfundo">ImagemFundo</string>
+    <string name="bemvindo">BemVindo</string>
+    <string name="bem_vindo_ao_aplicativo">Bem vindo ao aplicativo</string>
+    <string name="imagem_de_fundo">imagem_de_fundo</string>
+    <string name="nome">Nome</string>
+    <string name="descricao">Descrição</string>
+    <string name="descri_o">Descrição</string>
+    <string name="nome2">Nome</string>
+    <string name="salvar">Salvar</string>
+    <string name="respons_vel">Responsável</string>
+    <string name="em_andamento">Em andamento</string>
+    <string name="data">Data</string>
+</resources>

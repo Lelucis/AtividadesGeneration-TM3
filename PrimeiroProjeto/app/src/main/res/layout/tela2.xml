@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imagem_de_fundo"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fundodois" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="212dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/respons_vel"
+        android:inputType="textPersonName"
+        android:textColorHint="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/nome2"
+        android:inputType="textPersonName"
+        android:textColorHint="#616161"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.092"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/descri_o"
+        android:inputType="textPersonName"
+        android:textColorHint="#616161"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.198"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/data"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.419"
+        android:autofillHints="" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/em_andamento"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3EEC4F84"
+        android:backgroundTintMode="add"
+        android:text="@string/salvar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.781"
+        app:strokeColor="@color/white" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
