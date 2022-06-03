@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dados</string>
+    <string name="dado_d6">Dado D6</string>
+    <string name="botao_d12">Botão D12</string>
+    <string name="button">Button</string>
+    <string name="botao_d20">Botão D20</string>
+</resources>
